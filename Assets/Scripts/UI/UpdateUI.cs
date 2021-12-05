@@ -50,7 +50,7 @@ public class UpdateUI : MonoBehaviour
         crosshairUI = FindObjectOfType<CrosshairUI>();
         _isCrosshairActive = false;
 
-        // Init corsshair
+        // Init infoText
         infoText = FindObjectOfType<PaintNeededText>();
         infoTextBG.SetActive(false);
     }
